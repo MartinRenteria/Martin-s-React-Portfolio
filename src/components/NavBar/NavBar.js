@@ -4,7 +4,7 @@ function NavBar() {
     return (
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Martin Renteria</a>
+    <a class="navbar-brand" href="Home">Martin Renteria</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -20,7 +20,7 @@ function NavBar() {
           <a class="nav-link" href="Portfolio">Pricing</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="Resume" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a class="nav-link" href="Resume" target="_blank">Resume</a>
         </li>
       </ul>
     </div>

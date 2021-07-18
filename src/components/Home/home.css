@@ -1,3 +1,18 @@
+.homeBackground {
+    background: url(nature.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .intro {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
 .Typewriter {
     -webkit-text-stroke: 1.0px black; /* width and color */
     color:black;
