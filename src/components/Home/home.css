@@ -1,13 +1,14 @@
 .homeBackground {
-    background: url(nature.jpg) no-repeat center;
+    background: url(clouds.jpg) no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    opacity: 1;
   }
 
   .intro {
-      height: 100vh;
+      height: 50vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
