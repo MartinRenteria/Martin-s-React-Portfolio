@@ -1,3 +1,7 @@
+.skills-title {
+    color: orange;
+}
+
 .tools {
     display: flex;
     align-items: center;

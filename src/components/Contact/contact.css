@@ -2,15 +2,6 @@ a {
 	color: inherit;
 }
 
-button {
-	color: black;
-	padding: 1.5vw;
-	background-color: white;
-	font-family: 'Times New Roman', Times, serif, Poppins;
-	font-size: clamp(16px, 4vw, 45px);
-	border: 1px solid black;
-}
-
 .contact {
 	padding: 2vw;
 	height: 50vh;
@@ -20,11 +11,16 @@ button {
 	text-align: center;
 }
 
+#contact-title {
+	color: orange;
+}
+
 .Linkedin {
-	color: rgb(23, 70, 139);
+	color: rgb(13, 105, 224);
 }
 
 .icon {
   display: flex;
   justify-content: space-evenly;
+  font-size: 2em;
 }
