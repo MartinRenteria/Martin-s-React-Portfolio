@@ -1,7 +1,13 @@
-ul {
-    font-size: 5em;
+.tools {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-ul li {
+
+.tools li {
     display: inline;
     list-style-type: none;
+    font-size: 5em;
+    align-items: center;
+    justify-content: center;
 }

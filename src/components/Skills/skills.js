@@ -4,8 +4,9 @@ import "./skills.css"
 
 function Skills() {
   return (
-      <div>
+      <section>
       <h1>Skills and Expertises</h1>
+      <div className="tools">
       <ul>
     <li> <FaHtml5 /> </li>
     <li> <FaCss3 /> </li>
@@ -20,6 +21,7 @@ function Skills() {
 
 </ul>
 </div>
+</section>
   )
 }
 export default Skills;

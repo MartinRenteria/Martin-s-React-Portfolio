@@ -1,25 +1,30 @@
-  .contact {
-    padding: 2vw;
-    height: 50vh;
-    color: black;
-    font-family: 'Times New Roman', Times, serif, Poppins;
-    font-size: clamp(16px, 3vw, 40px);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+a {
+	color: inherit;
 }
-  
-    p {
-      margin-top: 0;
-    }
-  
-    button {
-      color: black;
-      padding: 1.5vw;
-      background-color: white;
-      font-family: 'Times New Roman', Times, serif, Poppins;
-      font-size: clamp(16px, 4vw, 45px);
-      border: 1px solid black;
-    }
+
+button {
+	color: black;
+	padding: 1.5vw;
+	background-color: white;
+	font-family: 'Times New Roman', Times, serif, Poppins;
+	font-size: clamp(16px, 4vw, 45px);
+	border: 1px solid black;
+}
+
+.contact {
+	padding: 2vw;
+	height: 50vh;
+	color: black;
+	font-family: 'Times New Roman', Times, serif, Poppins;
+	font-size: clamp(16px, 3vw, 40px);
+	text-align: center;
+}
+
+.Linkedin {
+	color: rgb(23, 70, 139);
+}
+
+.icon {
+  display: flex;
+  justify-content: space-evenly;
+}

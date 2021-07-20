@@ -1,20 +1,20 @@
-import React, { useState } from 'react'
-import "./contact.css"
+import React from 'react';
+import { FcGoogle } from "react-icons/fc";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import "./contact.css";
 
-export default function Contact() {
-  const [setCopy] = useState("Copy")
-  const emailCopied = () => {
-    navigator.clipboard.writeText("renteriamp96@gmail.com")
-    setCopy("Copied")
-    setTimeout(() => { setCopy("Copy") }, 1000)
-  }
-
+function Contact() {
+  
   return (
     <section class="contact">
-      <p>Please get in touch with me for professional opportunities.</p>
-        <button class="email" onClick={emailCopied}>renteriamp96@gmail.com</button>
-    
+            <h1 id="contact-title">Contact Me</h1>
+            <div className="icon">
+            <a href="mailto:renteriamp96@gmail.com"><FcGoogle /></a>
+            <a href="https://github.com/MartinRenteria"><FaGithub /></a>
+            <a className="Linkedin" href="https://www.linkedin.com/in/martin-renteria/"><FaLinkedin /></a>
+            </div>
     </section>
-
   )
 }
+
+export default Contact;
