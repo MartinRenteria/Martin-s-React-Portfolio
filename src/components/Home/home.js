@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 
 function Home() {
     return (
-    <main class="homeBackground">
+    <main>
       <section className="intro">
 
         <Typewriter
