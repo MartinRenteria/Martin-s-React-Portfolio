@@ -1,7 +1,3 @@
-a {
-	color: inherit;
-}
-
 .contact {
 	background: rgb(110, 137, 209);
 	padding: 2vw;
@@ -13,7 +9,8 @@ a {
 }
 
 #contact-title {
-	color: orange;
+	color: white;
+	font-weight: 600;
 }
 
 .Github {
