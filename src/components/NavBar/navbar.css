@@ -1,3 +1,10 @@
 .navbar {
     color: orange;
 }
+
+.navbar-toggler {
+    position: absolute;
+    right: 0.5em;
+    width: 3em;
+    padding: 0.5em;
+}
