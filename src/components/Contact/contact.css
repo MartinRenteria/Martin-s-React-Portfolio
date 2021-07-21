@@ -3,6 +3,7 @@ a {
 }
 
 .contact {
+	background: rgb(110, 137, 209);
 	padding: 2vw;
 	height: 50vh;
 	color: black;
@@ -15,6 +16,10 @@ a {
 	color: orange;
 }
 
+.Github {
+	color: white;
+}
+
 .Linkedin {
 	color: rgb(13, 105, 224);
 }
@@ -22,5 +27,5 @@ a {
 .icon {
   display: flex;
   justify-content: space-evenly;
-  font-size: 2em;
+  font-size: 2.5em;
 }
