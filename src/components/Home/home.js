@@ -13,8 +13,9 @@ function Home() {
         onInit={(typewriter) => {
           typewriter.start()
             .typeString(`Hi there, I'm Martin Renteria.<br/>A JavaScript developer<br/>based in Bellevue, WA.<br/> Check out my work! =)`)
-        }}
-      />
+        }}/>
+        <a href="#Project-title"><button id="portfolio">View Portfolio</button></a>
+
 </section>
     </main>
     )

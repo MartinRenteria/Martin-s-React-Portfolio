@@ -8,13 +8,23 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+
+#portfolio {
+	background: black;
+	color:white;
+	font-size: 1.5em;
+    font-family: 'Oxanium', cursive;
+    text-transform: capitalize;
+
+}
+
 .Typewriter {
 	-webkit-text-stroke: 1.1px white; /* width and color */
 	color: white;
 	margin: auto;
 	font-family: "Times New Roman", Times, serif;
 	font-size: clamp(30px, 5vw, 60px);
-	line-height: 1.1;
+	line-height: 1.0;
 	text-align: center;
 	width: 95%;
 	height: clamp(90px, 31.5vw, 202.5px);
