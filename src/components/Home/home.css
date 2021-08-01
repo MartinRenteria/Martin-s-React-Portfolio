@@ -1,19 +1,19 @@
 body {
-	background: white;
+	background: black;
 }
 .intro {
-	height: 70vh;
+	height: 90vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 .Typewriter {
-	-webkit-text-stroke: 1.0px black; /* width and color */
-	color: black;
+	-webkit-text-stroke: 1.1px white; /* width and color */
+	color: white;
 	margin: auto;
 	font-family: "Times New Roman", Times, serif;
-	font-size: clamp(20px, 4vw, 50px);
+	font-size: clamp(30px, 5vw, 60px);
 	line-height: 1.1;
 	text-align: center;
 	width: 95%;
