@@ -1,5 +1,6 @@
 .about {
 	background: rgb(153, 58, 58);
+    height: 40vh;
 }
 
 .about-title {
@@ -9,10 +10,14 @@
     
 }
 
-p {
-    margin: 0;
+.aboutContent {
     padding: 8px 0;
     font-size: 2rem;
-    line-height: 1.4;
-    font-weight: 600;
+    font-weight: 700;
+    justify-content: center;
+    text-align: center;
+}
+
+svg {
+    pointer-events: none;
 }

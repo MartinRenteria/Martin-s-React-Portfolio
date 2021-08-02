@@ -14,7 +14,11 @@
 }
 
 .Github {
-	color: white;
+	color: black;
+}
+
+.contactButtons {
+	background: none;
 }
 
 .Linkedin {
