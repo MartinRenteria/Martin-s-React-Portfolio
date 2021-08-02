@@ -1,6 +1,7 @@
 body {
 	background: black;
 }
+
 .intro {
 	height: 90vh;
 	display: flex;
@@ -21,11 +22,12 @@ body {
 .Typewriter {
 	-webkit-text-stroke: 1.1px white; /* width and color */
 	color: white;
-	margin: auto;
+	margin: 1.5em;
 	font-family: "Times New Roman", Times, serif;
 	font-size: clamp(30px, 5vw, 60px);
+	font-weight: 700;
 	line-height: 1.0;
 	text-align: center;
-	width: 95%;
+	width: 100%;
 	height: clamp(90px, 31.5vw, 202.5px);
 }

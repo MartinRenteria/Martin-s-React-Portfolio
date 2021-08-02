@@ -7,7 +7,6 @@ function Home() {
     return (
     <main>
       <section className="intro">
-
         <Typewriter
         options={{ delay: 50 }}
         onInit={(typewriter) => {
