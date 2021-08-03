@@ -1,5 +1,5 @@
 .about {
-	background: rgb(153, 58, 58);
+	background: #f4f4f4;
     height: 40vh;
 }
 
@@ -16,8 +16,4 @@
     font-weight: 700;
     justify-content: center;
     text-align: center;
-}
-
-svg {
-    pointer-events: none;
 }

@@ -7,13 +7,13 @@ body {
 }
 
 .navbar {
-	background: black;
+	background: white;
 }
 
 .navbar-title {
     display: flex;
     padding: 1em;
-    color: #fff;
+    color: black;
     text-decoration: none;
 }
 
@@ -24,7 +24,7 @@ body {
   }
 .topnav a {
     display: block;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;

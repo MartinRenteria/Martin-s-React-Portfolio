@@ -1,32 +1,4 @@
-.contact {
-	background: rgb(110, 137, 209);
-	padding: 2vw;
-	height: 50vh;
-	color: black;
-	font-family: 'Times New Roman', Times, serif, Poppins;
-	font-size: clamp(16px, 3vw, 40px);
-	text-align: center;
-}
-
-#contact-title {
-	color: white;
-	font-weight: 600;
-}
-
-.Github {
-	color: black;
-}
-
-.contactButtons {
-	background: none;
-}
-
-.Linkedin {
-	color: rgb(13, 105, 224);
-}
-
-.icon {
-  display: flex;
-  justify-content: space-evenly;
-  font-size: 2.5em;
+.footer {
+	display: flex;
+	background-color: #f4f4f4;
 }

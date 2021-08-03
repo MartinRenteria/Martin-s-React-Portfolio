@@ -4,12 +4,12 @@ import Google from "./images/GoogleReact.png"
 
 function Projects() {
     return (
-        <main>
+        <section className="projects">
         <div>
         <h1 id="Project-title">Projects</h1>
         </div>
                     <img src={Google} class="project-images" alt="Screenshot of project"></img>
-                </main>
+        </section>
     )
 }
 
