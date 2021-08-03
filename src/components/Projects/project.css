@@ -1,7 +1,6 @@
 .projects {
 	display: grid;
 	justify-content: center;
-
 }
 
 .project-images {
@@ -9,17 +8,12 @@
 	border: 5px solid black;
 	width: 20em;
 	height: 12em;
+	margin-bottom: 2em;
 	object-fit: cover;
 }
 
 #Project-title {
 	color: orange;
-	margin: 2em;
+	margin: 1em;
 	border-bottom: .35rem solid rgba(0, 0, 0, .4);
-}
-
-.card-title {
-	background-color: #333;
-	border-radius: 5px;
-	border: 1px solid #999;
 }

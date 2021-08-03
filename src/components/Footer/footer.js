@@ -1,7 +1,7 @@
 import React from 'react';
-import "./contact.css";
+import "./footer.css";
 
-function Contact() {
+function Footer() {
   
   return (
           <div>
@@ -10,4 +10,4 @@ function Contact() {
   )
 }
 
-export default Contact;
+export default Footer;
