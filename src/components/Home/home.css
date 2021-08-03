@@ -1,5 +1,5 @@
 .intro {
-	height: 90vh;
+	min-height: 90vh;
 	display: grid;
 	align-items: center;
 }
@@ -11,6 +11,7 @@
     text-transform: capitalize;
 	border-radius: 1em;
 	border: 1em 1em black;
+	margin-bottom: 2em;
 }
 
 .Typewriter {
