@@ -16,10 +16,10 @@ function Home() {
         }}/>
             <div id="icon">
             <a href="mailto:renteriamp96@gmail.com"><FcGoogle /></a>
-            <a className="Github" href="https://github.com/MartinRenteria"><FaGithub /></a>
-            <a className="Linkedin" href="https://www.linkedin.com/in/martin-renteria/"><FaLinkedin /></a>
+            <a className="Github" href="https://github.com/MartinRenteria" target="_blank" rel="noreferrer"><FaGithub /></a>
+            <a className="Linkedin" href="https://www.linkedin.com/in/martin-renteria/" target="_blank" rel="noreferrer"><FaLinkedin /></a>
             </div>
-        <a href="#Project-title"><button id="portfolioButton">View Portfolio</button></a>
+        <a href="#project-title"><button id="portfolioButton">View Portfolio</button></a>
 </section>
     </main>
     )

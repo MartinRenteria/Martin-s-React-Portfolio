@@ -1,16 +1,16 @@
-.about {
+#about {
 	background: #f4f4f4;
     min-height: 30vh;
     padding: 2em;
     width: 100%;
-    word-wrap: break-word
+    word-wrap: break-word;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .about-title {
     color: black;
     font-weight: 800;
     margin: 0 0 8px 0;
-    
 }
 
 .aboutContent {

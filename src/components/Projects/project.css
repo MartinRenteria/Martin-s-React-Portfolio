@@ -12,7 +12,7 @@
 	object-fit: cover;
 }
 
-#Project-title {
+#project-title {
 	color: orange;
 	margin: 1em;
 	border-bottom: .35rem solid rgba(0, 0, 0, .4);

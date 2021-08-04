@@ -6,7 +6,7 @@ function Projects() {
     return (
         <section className="projects">
         <div>
-        <h1 id="Project-title">Projects</h1>
+        <h1 id="project-title">Projects</h1>
         </div>
                     <img src={Google} class="project-images" alt="Screenshot of project"></img>
         </section>
