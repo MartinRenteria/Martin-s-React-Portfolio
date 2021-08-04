@@ -1,7 +1,13 @@
 .intro {
+	background-image: url(laptop.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 120em;
 	min-height: 90vh;
 	display: grid;
 	align-items: center;
+	
 }
 
 #portfolioButton {
@@ -16,7 +22,7 @@
 
 .Typewriter {
 	-webkit-text-stroke: 1.1px white; /* width and color */
-	color: black;
+	color: white;
     margin: 2vw auto;
 	font-family: "Times New Roman", Times, serif;
 	font-size: clamp(30px, 5vw, 50px);
