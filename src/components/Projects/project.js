@@ -13,8 +13,8 @@ function Projects() {
                     <img src={Google} class="project-images" alt="Screenshot of project - Google Books built with React framework"></img>
                     </div>
                     <div className="middle">
-                    <div className="project-links">GitHub Repo</div>
-                    <div className="project-links">Live Site</div>
+                    <a href="https://google-books-react-api.herokuapp.com/" target="_blank" rel="noreferrer"><button className="project-links">Live Site</button></a>
+                    <a href="https://github.com/MartinRenteria/Google-Book-Search-With-React" target="_blank" rel="noreferrer"><button className="project-links">GitHub</button></a>
                     </div>
             </div>
         </section>
