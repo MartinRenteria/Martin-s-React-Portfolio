@@ -1,23 +1,30 @@
 .intro {
+	display: grid;
 	background-image: url(laptop.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
 	background-size: 120em;
 	min-height: 90vh;
-	display: grid;
 	align-items: center;
-	
 }
 
 #portfolioButton {
+	display: grid;
 	font-size: 1.5em;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-weight: 400;
     text-transform: capitalize;
 	border-radius: 1em;
-	border: 1em 1em black;
+	border: 0.1em solid whitesmoke;
 	margin-bottom: 2em;
+	text-decoration: none;
+	align-items: center;
+}
+
+.portfolioButtonContainer {
+	display: grid;
+	justify-content: center;
 }
 
 .Typewriter {
@@ -47,6 +54,7 @@
 }
 
 .Linkedin {
+	
 	color: rgb(13, 105, 224);
 }
 

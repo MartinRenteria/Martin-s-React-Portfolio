@@ -1,5 +1,5 @@
 .container {
-	position: relative;	
+	position: relative;
 }
 
 .project-images {
@@ -47,7 +47,6 @@
 .projects {
 	display: grid;
 	justify-content: center;
-
 }
 
 
@@ -55,6 +54,7 @@
 	color: orange;
 	margin: 1em;
 	border-bottom: .35rem solid rgba(0, 0, 0, .4);
+	text-align: center;
 }
 
 .project-links {
@@ -70,6 +70,7 @@
 	border-radius: 1em;
 	border: 0.1em solid white;
 	margin-bottom: 2em;
+	align-items: center;
   }
 
   button:hover {

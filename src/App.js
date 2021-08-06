@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar/navbar";
 import Skills from './components/Skills/skills';
 import Projects from './components/Projects/project';
 import About from './components/About/about';
+import "./App.css";
 
 function App() {
   return (
