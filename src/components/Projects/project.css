@@ -37,11 +37,11 @@
 
 .projectContainer {
 	display: flex;
+	justify-content: center;
 }
 
 .project-images {
 	opacity: 1;
-	display: block;
 	width: 25em;
 	height: 15em;
 	border: 5px solid black;

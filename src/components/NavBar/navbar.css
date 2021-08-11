@@ -12,7 +12,7 @@
 	color: white;
 	text-decoration: none;
 	pointer-events: none;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .topnav {
@@ -25,8 +25,8 @@
 	color: white;
 	padding: 14px 16px;
 	font-size: 1.7em;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-decoration: none;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-decoration: none;
 }
 
 h1 {

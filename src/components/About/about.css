@@ -1,22 +1,21 @@
 #about {
 	background: #f4f4f4;
-    min-height: 30vh;
-    padding: 2em;
-    width: 100%;
-    word-wrap: break-word;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
+	min-height: 30vh;
+	padding: 2em;
+	width: 100%;
+	word-wrap: break-word;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
 }
 
 .about-title {
-    color: black;
-    font-weight: 800;
-    margin: 0 0 8px 0;
+	color: black;
+	font-weight: 800;
+	margin: 0 0 8px 0;
 }
 
 .aboutContent {
-    font-size: 1.4rem;
-    font-weight: 700;
-    justify-content: center;
-
+	font-size: 1.4rem;
+	font-weight: 700;
+	justify-content: center;
 }
