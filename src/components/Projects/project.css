@@ -1,7 +1,12 @@
+.projectContainer {
+	display: flex;
+	justify-content: center;
+}
+
 .container {
+	display: flex;
 	position: relative;
-	width: 25em;
-	height: 15em;
+	width: 100%;
 	margin: 1em;
 }
 
@@ -33,11 +38,6 @@
 
 .container:hover .middle {
 	opacity: 1;
-}
-
-.projectContainer {
-	display: flex;
-	justify-content: center;
 }
 
 .project-images {
