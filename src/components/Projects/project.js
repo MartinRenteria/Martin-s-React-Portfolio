@@ -9,99 +9,14 @@ function Projects() {
 				<h1 id="project-title">Projects</h1>
 			</div>
 			<div className="projectContainer">
-				<div className="container">
-					<div className="overlay">
-						<img
-							src={Google}
-							class="project-images"
-							alt="Screenshot of project - Google Books built with React framework"
-						/>
-					</div>
-					<div className="middle">
-						<a href="https://google-books-react-api.herokuapp.com/" target="_blank" rel="noreferrer">
-							<button className="project-links">Live Site</button>
-						</a>
-						<a
-							href="https://github.com/MartinRenteria/Google-Book-Search-With-React"
-							target="_blank"
-							rel="noreferrer"
-						>
-							<button className="project-links">GitHub</button>
-						</a>
-					</div>
+				<div className="containerBox">
+					<img
+						src={Google}
+						className="project-pictures"
+						alt="Screenshot of project - Google Books built with React framework"
+					/>
 				</div>
-				<div className="container">
-					<div className="overlay">
-						<img
-							src={Google}
-							class="project-images"
-							alt="Screenshot of project - Google Books built with React framework"
-						/>
-					</div>
-					<div className="middle">
-						<a href="https://google-books-react-api.herokuapp.com/" target="_blank" rel="noreferrer">
-							<button className="project-links">Live Site</button>
-						</a>
-						<a
-							href="https://github.com/MartinRenteria/Google-Book-Search-With-React"
-							target="_blank"
-							rel="noreferrer"
-						>
-							<button className="project-links">GitHub</button>
-						</a>
-					</div>
-				</div>
-				<div className="container">
-					<div className="overlay">
-						<img
-							src={Google}
-							class="project-images"
-							alt="Screenshot of project - Google Books built with React framework"
-						/>
-					</div>
-					<div className="middle">
-						<a href="https://google-books-react-api.herokuapp.com/" target="_blank" rel="noreferrer">
-							<button className="project-links">Live Site</button>
-						</a>
-						<a
-							href="https://github.com/MartinRenteria/Google-Book-Search-With-React"
-							target="_blank"
-							rel="noreferrer"
-						>
-							<button className="project-links">GitHub</button>
-						</a>
-					</div>
-				</div>
-				
-				<div className="container">
-					<div className="overlay">
-						<img
-							src={Google}
-							class="project-images"
-							alt="Screenshot of project - Google Books built with React framework"
-						/>
-					</div>
-					<div className="middle">
-						<a href="https://google-books-react-api.herokuapp.com/" target="_blank" rel="noreferrer">
-							<button className="project-links">Live Site</button>
-						</a>
-						<a
-							href="https://github.com/MartinRenteria/Google-Book-Search-With-React"
-							target="_blank"
-							rel="noreferrer"
-						>
-							<button className="project-links">GitHub</button>
-						</a>
-					</div>
-				</div>
-				<div className="container">
-					<div className="overlay">
-						<img
-							src={Google}
-							class="project-images"
-							alt="Screenshot of project - Google Books built with React framework"
-						/>
-					</div>
+				<div className="overlay">
 					<div className="middle">
 						<a href="https://google-books-react-api.herokuapp.com/" target="_blank" rel="noreferrer">
 							<button className="project-links">Live Site</button>
