@@ -15,18 +15,16 @@ function Projects() {
 						className="project-pictures"
 						alt="Screenshot of project - Google Books built with React framework"
 					/>
-				</div>
 				<div className="overlay">
-					<div className="middle">
 						<a href="https://google-books-react-api.herokuapp.com/" target="_blank" rel="noreferrer">
-							<button className="project-links">Live Site</button>
+							<button >Live Site</button>
 						</a>
 						<a
 							href="https://github.com/MartinRenteria/Google-Book-Search-With-React"
 							target="_blank"
 							rel="noreferrer"
 						>
-							<button className="project-links">GitHub</button>
+							<button >GitHub</button>
 						</a>
 					</div>
 				</div>
