@@ -1,6 +1,6 @@
 .intro {
 	display: grid;
-	background-image: url(laptop.jpg);
+	background-image: url(laptop2.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
@@ -11,15 +11,26 @@
 
 #portfolioButton {
 	display: grid;
+	width: 7em;
 	font-size: 1.5em;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-weight: 400;
     text-transform: capitalize;
 	border-radius: 1em;
-	border: 0.1em solid whitesmoke;
+	border: 0.1em solid black;
 	margin-bottom: 2em;
 	text-decoration: none;
 	align-items: center;
+	background-color: #f8ceec;
+	background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+	-webkit-transition: background-color 3s ease-out;
+	-moz-transition: background-color 3s ease-out;
+	-o-transition: background-color 3s ease-out;
+	transition: background-color 3s ease-out;
+}
+
+#portfolioButton:hover {
+	background: white;
 }
 
 .portfolioButtonContainer {
