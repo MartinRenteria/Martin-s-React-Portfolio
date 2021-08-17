@@ -1,6 +1,6 @@
 .intro {
 	display: grid;
-	background-image: url(laptop2.jpg);
+	background-image: url(./images/laptop2.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;

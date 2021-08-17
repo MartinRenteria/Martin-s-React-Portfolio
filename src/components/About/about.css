@@ -6,6 +6,8 @@
 	word-wrap: break-word;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	text-align: center;
+	background-color: #44355b;
+	background-image: linear-gradient(315deg, #44355b 0%, #ececec 74%);
 }
 
 .about-title {
