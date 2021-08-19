@@ -5,17 +5,20 @@ import Skills from "./components/Skills/skills";
 import Projects from "./components/Projects/project";
 import About from "./components/About/about";
 import "./App.css";
+import { BrowserRouter as Router, Route } from "react-router-dom"
 
 function App() {
 	return (
+		<Router>
 		<div className="App">
 			<NavBar />
-			<Home />
+		<Route exact path='/' component={Home} />
 			<About />
 			<Projects />
 			<Skills />
 			<Footer />
 		</div>
+		</Router>
 	);
 }
 

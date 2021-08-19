@@ -17,14 +17,14 @@ function Projects() {
 					/>
 				<div className="overlay">
 						<a href="https://google-books-react-api.herokuapp.com/" target="_blank" rel="noreferrer">
-							<button >Live Site</button>
+							<button className="siteButtons">Live Site</button>
 						</a>
 						<a
 							href="https://github.com/MartinRenteria/Google-Book-Search-With-React"
 							target="_blank"
 							rel="noreferrer"
 						>
-							<button >GitHub</button>
+							<button className="siteButtons">GitHub</button>
 						</a>
 					</div>
 				</div>

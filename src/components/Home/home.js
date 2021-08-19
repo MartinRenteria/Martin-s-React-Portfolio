@@ -6,7 +6,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Home() {
 	return (
-		<main>
+		<header className="headerContent">
 			<section className="intro">
 				<Typewriter
 					options={{ delay: 50 }}
@@ -40,8 +40,8 @@ function Home() {
 					</a>
 				</div>
 			</section>
-		</main>
+			</header>
 	);
-}
+				}
 
 export default Home;
