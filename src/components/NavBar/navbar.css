@@ -1,18 +1,6 @@
-.Logo {
-	background: rgb(255, 255, 255);
-}
-
 .navbar {
 	background: black;
-}
-
-.navbar-title {
-	display: flex;
-	padding: 1em;
-	color: white;
-	text-decoration: none;
-	pointer-events: none;
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	height: 4em;
 }
 
 .topnav {
@@ -24,9 +12,13 @@
 	display: block;
 	color: white;
 	padding: 14px 16px;
-	font-size: 1.7em;
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 1.8em;
 	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+}
+
+.topnav a:hover {
+	color: red;
 }
 
 h1 {

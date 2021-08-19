@@ -1,13 +1,10 @@
 #about {
-	background: #f4f4f4;
 	min-height: 30vh;
 	padding: 2em;
 	width: 100%;
 	word-wrap: break-word;
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: Helvetica, Arial, sans-serif;
 	text-align: center;
-	background-color: #44355b;
-	background-image: linear-gradient(315deg, #44355b 0%, #ececec 74%);
 }
 
 .about-title {
@@ -17,7 +14,7 @@
 }
 
 .aboutContent {
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 	font-weight: 700;
 	justify-content: center;
 }

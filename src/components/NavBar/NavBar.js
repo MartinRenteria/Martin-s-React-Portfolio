@@ -1,13 +1,10 @@
 import React from "react";
-import Logo from "./images/logo.png";
 import "./navbar.css";
 
 function Nav() {
 	return (
 		<nav class="navbar navbar-expand-lg navbar-dark">
 			<a class="navbar-title" href="/">
-				<img className="Logo" width="100" src={Logo} alt="Logo" />
-				<h1>Martin Renteria</h1>
 			</a>
 			<button
 				className="navbar-toggler"

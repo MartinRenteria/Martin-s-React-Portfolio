@@ -5,7 +5,7 @@
 	background-attachment: fixed;
 	background-position: center;
 	background-size: 120em;
-	min-height: 90vh;
+	min-height: 95vh;
 	align-items: center;
 }
 
@@ -13,24 +13,23 @@
 	display: grid;
 	width: 7em;
 	font-size: 1.5em;
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: Helvetica, Arial, sans-serif;
 	font-weight: 400;
     text-transform: capitalize;
 	border-radius: 1em;
-	border: 0.1em solid black;
+	border: 0.1em solid white;
 	margin-bottom: 2em;
 	text-decoration: none;
 	align-items: center;
-	background-color: #f8ceec;
-	background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
-	-webkit-transition: background-color 3s ease-out;
-	-moz-transition: background-color 3s ease-out;
-	-o-transition: background-color 3s ease-out;
-	transition: background-color 3s ease-out;
+	background-color: white;
+	-webkit-transition: background-color 0.5s ease-in;
+	-moz-transition: background-color 0.5s ease-in;
+	-o-transition: background-color 0.5s ease-in;
+	transition: background-color 0.5s ease-in;
 }
 
 #portfolioButton:hover {
-	background: white;
+	background:aquamarine;
 }
 
 .portfolioButtonContainer {

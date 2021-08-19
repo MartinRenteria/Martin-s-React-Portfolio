@@ -5,6 +5,10 @@
 	scroll-behavior: smooth;
 }
 
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
 a {
 	text-decoration: none;
 }
