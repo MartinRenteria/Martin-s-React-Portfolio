@@ -22,19 +22,17 @@
 	font-weight: 400;
     text-transform: capitalize;
 	border-radius: 1em;
-	border: 0.1em solid white;
+	border: 0.1em solid black;
 	margin-bottom: 2em;
 	text-decoration: none;
 	align-items: center;
 	background-color: white;
-	-webkit-transition: background-color 0.5s ease-in;
-	-moz-transition: background-color 0.5s ease-in;
-	-o-transition: background-color 0.5s ease-in;
-	transition: background-color 0.5s ease-in;
+	transition-property: background-color;
+	transition-duration: 750ms;
 }
 
 #portfolioButton:hover {
-	background:aquamarine;
+	background-color:rgb(99, 21, 99);
 }
 
 .portfolioButtonContainer {
@@ -45,11 +43,10 @@
 .Typewriter {
 	-webkit-text-stroke: 1.1px white; /* width and color */
 	color: white;
-    margin: 2vw auto;
+    margin: 5vw auto;
 	font-family: "Times New Roman", Times, serif;
 	font-size: clamp(30px, 5vw, 50px);
 	font-weight: 700;
-	line-height: 1.0;
 	text-align: center;
 	width: 100%;
 	height: clamp(90px, 31.5vw, 202.5px);
