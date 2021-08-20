@@ -1,22 +1,22 @@
 .skills-title {
-        color: orange;
-        margin: 1em;
-        border-bottom: .35rem solid rgba(0, 0, 0, .4);
-        text-align: center;
-        font-weight: 700;
+	color: orange;
+	margin: 1em;
+	border-bottom: .35rem solid rgba(0, 0, 0, .4);
+	text-align: center;
+	font-weight: 700;
 }
 
 .tools {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .tools li {
-    display: inline;
-    color: rgb(243, 206, 151);
-    list-style-type: none;
-    font-size: 4em;
-    align-items: center;
-    justify-content: center;
+	display: inline;
+	color: rgb(243, 206, 151);
+	list-style-type: none;
+	font-size: 4em;
+	align-items: center;
+	justify-content: center;
 }
