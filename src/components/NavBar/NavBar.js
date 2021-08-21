@@ -4,6 +4,7 @@ import "./navbar.css";
 function Nav() {
 	return (
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			    <a class="navbar-brand" href="#MartinRenteria" rel="noreferrer"><h1>Martin Renteria</h1></a>
 			<button
 				className="navbar-toggler"
 				type="button"

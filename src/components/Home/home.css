@@ -27,12 +27,14 @@
 	text-decoration: none;
 	align-items: center;
 	background-color: white;
-	transition-property: background-color;
+	color: black;
+	transition-property: background-color, color;
 	transition-duration: 750ms;
 }
 
 #portfolioButton:hover {
-	background-color:rgb(145, 48, 145);
+	background-color:rgb(182, 50, 182);
+	color: white;
 }
 
 .portfolioButtonContainer {

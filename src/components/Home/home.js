@@ -6,7 +6,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Home() {
 	return (
-		<header className="headerContent">
+		<header className="headerContent" id="MartinRenteria">
 			<section className="intro">
 				<Typewriter
 					options={{ delay: 50 }}
