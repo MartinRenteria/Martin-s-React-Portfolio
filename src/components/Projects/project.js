@@ -15,17 +15,28 @@ function Projects() {
 						className="project-pictures"
 						alt="Screenshot of project - Google Books built with React framework"
 					/>
-				<div className="overlay">
-						<a href="https://google-books-react-api.herokuapp.com/" target="_blank" rel="noreferrer">
-							<button className="siteButtons">Live Site</button>
-						</a>
-						<a
-							href="https://github.com/MartinRenteria/Google-Book-Search-With-React"
-							target="_blank"
-							rel="noreferrer"
-						>
-							<button className="siteButtons">GitHub</button>
-						</a>
+					<div className="overlay">
+						<p className="proj-description">
+							A Full-Stack MERN project (MongoDB database, Express.JS, React. JS, and Node.JS) made with
+							the Google Books API that searches all books available from Google and then save them to a
+							list.
+						</p>
+						<div className="proj-button-container">
+						<button className="siteButtons">
+							<a href="https://google-books-react-api.herokuapp.com/" target="_blank" rel="noreferrer">
+								Link Site
+							</a>
+						</button>
+						<button className="siteButtons">
+							<a
+								href="https://github.com/MartinRenteria/Google-Book-Search-With-React"
+								target="_blank"
+								rel="noreferrer"
+							>
+								GitHub
+							</a>
+						</button>
+						</div>
 					</div>
 				</div>
 			</div>

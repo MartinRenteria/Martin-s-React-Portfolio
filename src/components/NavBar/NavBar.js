@@ -3,20 +3,21 @@ import "./navbar.css";
 
 function Nav() {
 	return (
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			    <a class="navbar-brand" href="#MartinRenteria" rel="noreferrer"><h1>Martin Renteria</h1></a>
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+			  <div class="container-fluid">
+			    <a class="navbar-brand" href="#MartinRenteria" rel="noreferrer"><h2>Martin Renteria</h2></a>
 			<button
 				className="navbar-toggler"
 				type="button"
 				data-bs-toggle="collapse"
-				data-bs-target="#navbarTogglerDemo01"
-				aria-controls="navbarTogglerDemo01"
+				data-bs-target="#navbarTogglerDemo02"
+				aria-controls="navbarTogglerDemo02"
 				aria-expanded="false"
 				aria-label="Toggle navigation"
 			>
 				<span className="navbar-toggler-icon" />
 			</button>
-			<div className="topnav collapse navbar-collapse" id="navbarTogglerDemo01">
+			<div className="topnav collapse navbar-collapse" id="navbarTogglerDemo02">
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 					<li class="nav-item">
 						<a class="nav-link" href="#about">About Me</a>
@@ -35,6 +36,7 @@ function Nav() {
 						</a>
 					</li>
 				</ul>
+			</div>
 			</div>
 		</nav>
 

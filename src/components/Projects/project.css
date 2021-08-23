@@ -23,7 +23,6 @@
 }
 
 .overlay {
-	display: flex;
 	justify-content: center;
 	position: absolute;
 	top: 0;
@@ -37,11 +36,15 @@
 	transition: 0.5s ease-in-out;
 }
 
+.proj-description {
+	color: white;
+	text-align: center;
+	margin: 2em;
+	font-weight: 700;
+	font-size: 1.03em;
+}
+
 .overlay button {
-	position: relative;
-	top: 5em;
-	left: 3.5em;
-	margin-right: 2em;
 	background-color: rgba(224, 156, 28, 0.979);
 	color: black;
 	font-size: 1.5em;
@@ -50,18 +53,23 @@
 	text-transform: capitalize;
 	border-radius: 1em;
 	border: 0.1em solid black;
-	text-decoration: none;
-	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
 	opacity: 1;
 	width: 5em;
 }
 
+.siteButtons a {
+	text-decoration: none;
+	color: black;
+}
+
+.proj-button-container {
+	display: flex;
+	justify-content: space-around;
+}
 
 .containerBox:hover .overlay {
 	opacity: 1;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0, 0, 0, 0.7);
 }
 
 #project-title {
