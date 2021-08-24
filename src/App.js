@@ -5,11 +5,9 @@ import Skills from "./components/Skills/skills";
 import Projects from "./components/Projects/project";
 import About from "./components/About/about";
 import "./App.css";
-import { BrowserRouter as Router } from "react-router-dom"
 
 function App() {
 	return (
-		<Router>
 		<div className="App">
 			<NavBar />
 			<Home />
@@ -18,7 +16,6 @@ function App() {
 			<Skills />
 			<Footer />
 		</div>
-		</Router>
 	);
 }
 
