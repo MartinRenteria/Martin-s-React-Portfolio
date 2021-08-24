@@ -23,7 +23,7 @@ function Nav() {
 						<a class="nav-link" href="#about">About Me</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#project-title">Portfolio</a>
+						<a class="nav-link" href="#projectHeader">Portfolio</a>
 					</li>
 					<li class="nav-item">
 						<a

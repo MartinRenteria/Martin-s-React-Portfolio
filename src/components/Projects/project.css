@@ -15,6 +15,14 @@
 	cursor: pointer;
 }
 
+.project-titles {
+	color: orange;
+	font-size: 2em;
+	font-weight: 900;
+	text-align: center;
+	border-bottom: 0.1em solid black;
+}
+
 .project-pictures {
 	display: block;
 	width: 25em;
@@ -42,9 +50,9 @@
 .proj-description {
 	color: white;
 	text-align: center;
-	margin: 2em;
+	margin: 1.3em;
 	font-weight: 700;
-	font-size: 1.03em;
+	font-size: 1em;
 }
 
 .overlay button {
@@ -75,7 +83,7 @@
 	background-color: rgba(0, 0, 0, 0.7);
 }
 
-#project-title {
+#projectHeader {
 	color: orange;
 	margin: 1em;
 	border-bottom: .35rem solid rgba(0, 0, 0, .4);
