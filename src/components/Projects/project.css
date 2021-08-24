@@ -1,9 +1,12 @@
 .projectContainer {
+	margin: 0;
+	padding: 2em;
+}
+
+.projects {
 	display: flex;
 	align-content: flex-start;
 	flex-wrap: wrap;
-	margin: 0;
-	padding: 0;
 	justify-content: center;
 }
 
