@@ -1,5 +1,6 @@
 import React from "react";
 import "./navbar.css";
+import Resume from "./Files/Resume.docx.pdf"
 
 function Nav() {
 	return (
@@ -28,7 +29,7 @@ function Nav() {
 					<li class="nav-item">
 						<a
 							class="nav-link"
-							href="https://drive.google.com/file/d/11yz1mUiFv9g7L8MG8uGa0eHHTUBpTrVg/view?usp=sharing"
+							href={Resume}
 							target="_blank"
 							rel="noreferrer"
 						>

@@ -2,10 +2,10 @@ import React from "react";
 import "./project.css";
 import Google from "./images/GoogleReact.png";
 import Finance from "./images/Offline-finance-tracker.png";
-import Weather from "./images/WeatherApp.png";
+import Weather from "./images/Weather.png";
 import Workout from "./images/Workout-Tracker.png";
 import Scheduler from "./images/WorkScheduler.png";
-import Dance from "./images/Dance-class.png";
+import Dance from "./images/Dance.png";
 
 function Projects() {
 	return (
@@ -107,7 +107,7 @@ function Projects() {
 						<div className="overlay">
 							<p className="proj-description">
 								This application required the knowledge of requesting information from API's and saving
-								information retrieved into local storage. The API used involved displayed weather
+								information retrieved into local storage. The weather API displays weather
 								information to the user based on the city they search for.
 							</p>
 							<div className="proj-button-container">
@@ -187,8 +187,8 @@ function Projects() {
 						/>
 						<div className="overlay">
 							<p className="proj-description">
-								This application required the knowledge of traversing the DOM and incorporating the use
-								of local storage
+								A work-day application that required the knowledge of traversing the DOM and incorporating the use
+								of local storage. Can be used for a variety of purposes to keep yourself productive!
 							</p>
 							<div className="proj-button-container">
 								<button className="siteButtons">

@@ -35,7 +35,7 @@ function Home() {
 					</a>
 				</div>
 				<div className="portfolioButtonContainer">
-					<a href="#project-title">
+					<a href="#projectHeader">
 						<button id="portfolioButton">View Portfolio</button>
 					</a>
 				</div>

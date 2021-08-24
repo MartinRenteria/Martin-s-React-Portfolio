@@ -3,19 +3,21 @@
 	padding: 2em;
 	width: 100%;
 	word-wrap: break-word;
-	text-align: center;
 }
 
 .about-title {
-		color: orange;
-		margin: 1em;
-		border-bottom: .35rem solid rgba(0, 0, 0, .4);
-		text-align: center;
-		font-weight: 700;
+	color: orange;
+	margin: 1em;
+	border-bottom: .35rem solid rgba(0, 0, 0, .4);
+	text-align: center;
+	font-weight: 700;
 }
 
 .aboutContent {
-	font-size: 1.6rem;
-	font-weight: 700;
+	font-size: 2rem;
+	font-weight: 900;
 	justify-content: center;
+	border-left: 0.1em solid black;
+	margin-left: 2em;
+	padding-left: 2em;
 }

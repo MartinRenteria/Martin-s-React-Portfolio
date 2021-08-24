@@ -1,5 +1,6 @@
 import React from "react";
 import { FaHtml5, FaCss3, FaJs, FaDatabase, FaNode, FaNpm, FaBootstrap, FaReact, FaAws, FaSlack } from "react-icons/fa";
+import { DiMongodb } from "react-icons/di";
 import "./skills.css";
 
 function Skills() {
@@ -23,6 +24,10 @@ function Skills() {
 					<li>
 						{" "}
 						<FaDatabase />{" "}
+					</li>
+					<li>
+						{" "}
+						<DiMongodb />{" "}
 					</li>
 					<li>
 						{" "}
