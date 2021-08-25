@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import "./home.css";
 import Typewriter from "typewriter-effect";
 import { FcGoogle } from "react-icons/fc";
