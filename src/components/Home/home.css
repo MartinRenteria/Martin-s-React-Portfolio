@@ -1,11 +1,8 @@
-.headerContent {
-	position: relative;
-	top: 2em;
-}
+
 
 .intro {
 	display: grid;
-	background-image: url(./images/nightsky.jfif);
+	background-image: url(./images/nightSky.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
