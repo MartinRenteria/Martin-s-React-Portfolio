@@ -1,6 +1,6 @@
 {
-  "name": "portfolio",
-  "homepage": "https://MartinRenteria.github.io/Martin-s-React-Portfolio/",
+  "name": "martins-react-portfolio",
+  "homepage": "https://MartinRenteria.github.io/Martin-s-React-Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
