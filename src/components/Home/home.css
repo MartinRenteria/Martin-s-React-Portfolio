@@ -2,11 +2,7 @@
 
 .intro {
 	display: grid;
-	background-image: url(./images/nightSky.jpg);
 	background-color: black;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
 	background-size: 120em;
 	min-height: 99vh;
 	align-items: center;

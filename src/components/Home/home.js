@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react';
 import "./home.css";
 import Typewriter from "typewriter-effect";
 import { FcGoogle } from "react-icons/fc";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import StarfieldAnimation from 'react-starfield-animation'
+import StarfieldAnimation from 'react-starfield-animation';
 
 function Home() {
 	return (
@@ -22,7 +22,7 @@ function Home() {
 						typewriter
 							.start()
 							.typeString(
-								`Hi there, I'm Martin Renteria.<br/>A Full-Stack Software Enigineer<br/>based in Bellevue, WA.<br/>`
+								`Hi there, I'm Martin Renteria.<br/>A Full-Stack Software Engineer<br/>based in Bellevue, WA.<br/>`
 							);
 					}}
 				/>
