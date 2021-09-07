@@ -2,6 +2,7 @@
 
 .intro {
 	display: grid;
+	background-image: url(./images/nightSky.jpg);
 	background-color: black;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
