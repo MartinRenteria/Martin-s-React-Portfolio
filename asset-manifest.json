@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Martin-s-React-Portfolio/static/css/main.57027957.chunk.css",
-    "main.js": "/Martin-s-React-Portfolio/static/js/main.d793de0b.chunk.js",
-    "main.js.map": "/Martin-s-React-Portfolio/static/js/main.d793de0b.chunk.js.map",
+    "main.css": "/Martin-s-React-Portfolio/static/css/main.15cb1e9b.chunk.css",
+    "main.js": "/Martin-s-React-Portfolio/static/js/main.30e05a22.chunk.js",
+    "main.js.map": "/Martin-s-React-Portfolio/static/js/main.30e05a22.chunk.js.map",
     "runtime-main.js": "/Martin-s-React-Portfolio/static/js/runtime-main.de495319.js",
     "runtime-main.js.map": "/Martin-s-React-Portfolio/static/js/runtime-main.de495319.js.map",
     "static/js/2.c9d793b3.chunk.js": "/Martin-s-React-Portfolio/static/js/2.c9d793b3.chunk.js",
     "static/js/2.c9d793b3.chunk.js.map": "/Martin-s-React-Portfolio/static/js/2.c9d793b3.chunk.js.map",
     "index.html": "/Martin-s-React-Portfolio/index.html",
-    "static/css/main.57027957.chunk.css.map": "/Martin-s-React-Portfolio/static/css/main.57027957.chunk.css.map",
+    "static/css/main.15cb1e9b.chunk.css.map": "/Martin-s-React-Portfolio/static/css/main.15cb1e9b.chunk.css.map",
     "static/js/2.c9d793b3.chunk.js.LICENSE.txt": "/Martin-s-React-Portfolio/static/js/2.c9d793b3.chunk.js.LICENSE.txt",
     "static/media/Dance.f84a3f3b.png": "/Martin-s-React-Portfolio/static/media/Dance.f84a3f3b.png",
     "static/media/GoogleReact.16f71824.png": "/Martin-s-React-Portfolio/static/media/GoogleReact.16f71824.png",
@@ -16,13 +16,12 @@
     "static/media/Resume.docx.01dd951d.pdf": "/Martin-s-React-Portfolio/static/media/Resume.docx.01dd951d.pdf",
     "static/media/Weather.efb8e6a8.png": "/Martin-s-React-Portfolio/static/media/Weather.efb8e6a8.png",
     "static/media/WorkScheduler.6745dcb2.png": "/Martin-s-React-Portfolio/static/media/WorkScheduler.6745dcb2.png",
-    "static/media/Workout-Tracker.ade6d272.png": "/Martin-s-React-Portfolio/static/media/Workout-Tracker.ade6d272.png",
-    "static/media/home.css": "/Martin-s-React-Portfolio/static/media/nightSky.28fd4f2b.jpg"
+    "static/media/Workout-Tracker.ade6d272.png": "/Martin-s-React-Portfolio/static/media/Workout-Tracker.ade6d272.png"
   },
   "entrypoints": [
     "static/js/runtime-main.de495319.js",
     "static/js/2.c9d793b3.chunk.js",
-    "static/css/main.57027957.chunk.css",
-    "static/js/main.d793de0b.chunk.js"
+    "static/css/main.15cb1e9b.chunk.css",
+    "static/js/main.30e05a22.chunk.js"
   ]
 }
