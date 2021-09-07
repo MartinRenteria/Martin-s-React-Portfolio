@@ -2,7 +2,7 @@
 
 .intro {
 	display: grid;
-	background-image: url(./images/nightSky.jpg);
+	background-color: black;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
@@ -67,7 +67,7 @@
 }
 
 .Github {
-	color: black;
+	color: white;
 }
 
 .contactButtons {
@@ -87,3 +87,4 @@
   animation: appear 1s linear forwards;
   animation-delay: 3.5s;
 }
+

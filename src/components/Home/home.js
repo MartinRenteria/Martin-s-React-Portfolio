@@ -1,13 +1,21 @@
-import React from 'react'
+import React, { Component } from 'react'
 import "./home.css";
 import Typewriter from "typewriter-effect";
 import { FcGoogle } from "react-icons/fc";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import StarfieldAnimation from 'react-starfield-animation'
 
 function Home() {
 	return (
 		<header className="headerContent" id="MartinRenteria">
 			<section className="intro">
+			<StarfieldAnimation
+        style={{
+          position: 'absolute',
+          width: '100%',
+          height: '100%'
+        }}
+      />
 				<Typewriter
 					options={{ delay: 50 }}
 					onInit={(typewriter) => {
