@@ -6,7 +6,9 @@
 }
 
 body {
-	font-family: 'Raleway', sans-serif;
+	background: #f6f9fc;
+	font-family: "Open Sans", sans-serif;
+	color: #525f7f;
 }
 
 a {
