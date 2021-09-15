@@ -1,59 +1,86 @@
 import React from "react";
-import { FaHtml5, FaCss3, FaJs, FaDatabase, FaNode, FaNpm, FaBootstrap, FaReact, FaAws, FaSlack } from "react-icons/fa";
-import { DiMongodb } from "react-icons/di";
 import "./skills.css";
 
 function Skills() {
 	return (
 		<section className="skillsSection">
 			<h1 className="skills-title">Skills and Expertises</h1>
-			<div className="tools">
-				<ul>
-					<li>
-						{" "}
-						<FaHtml5 />{" "}
-					</li>
-					<li>
-						{" "}
-						<FaCss3 />{" "}
-					</li>
-					<li>
-						{" "}
-						<FaJs />{" "}
-					</li>
-					<li>
-						{" "}
-						<FaDatabase />{" "}
-					</li>
-					<li>
-						{" "}
-						<DiMongodb />{" "}
-					</li>
-					<li>
-						{" "}
-						<FaNpm />{" "}
-					</li>
-					<li>
-						{" "}
-						<FaNode />{" "}
-					</li>
-					<li>
-						{" "}
-						<FaBootstrap />{" "}
-					</li>
-					<li>
-						{" "}
-						<FaReact />{" "}
-					</li>
-					<li>
-						{" "}
-						<FaAws />{" "}
-					</li>
-					<li>
-						{" "}
-						<FaSlack />{" "}
-					</li>
-				</ul>
+			<div className="cards">
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<p className="card-title">Front-end Techonolgies</p>
+						</div>
+						<div class="flip-card-back">
+							<div className="tools">
+								<ul className="card-title-back">
+									<li>
+										HTML
+									</li>
+									<li>
+										CSS
+									</li>
+									<li>
+										JavaScript
+									</li>
+									<li>
+										Bootstrap
+									</li>
+									<li>
+										React
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<p className="card-title">Back-end Techonolgies</p>
+						</div>
+						<div class="flip-card-back">
+						<div className="tools">
+								<ul className="card-title-back">
+									<li>
+										Node.Js
+									</li>
+									<li>
+										NPM
+									</li>
+									<li>
+										Express.js
+									</li>
+									<li>
+										HandleBars.js
+									</li>
+									<li>
+										AWS
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<p className="card-title">Database Techonolgies</p>
+						</div>
+						<div class="flip-card-back">
+						<div className="tools">
+								<ul className="card-title-back">
+									<li>
+										MySQL
+									</li>
+									<li>
+										MongoDB
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 	);
