@@ -5,6 +5,18 @@
 	word-wrap: break-word;
 }
 
+.aboutContainer {
+	display: flex;
+}
+
+.card-img-top {
+	background-image: url(Professional.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 16em;
+}
+
 .about-title {
 	color: orange;
 	margin: 1em;
@@ -14,7 +26,8 @@
 }
 
 .aboutContent {
-	font-size: 2rem;
+	display: inline-block;
+	font-size: 1.5rem;
 	font-weight: 900;
 	justify-content: center;
 	border-left: 0.1em solid black;

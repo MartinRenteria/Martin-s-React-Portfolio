@@ -24,6 +24,9 @@ function Nav() {
 						<a class="nav-link" href="#about">About Me</a>
 					</li>
 					<li class="nav-item">
+						<a class="nav-link" href="#expereince-title">Experience</a>
+					</li>
+					<li class="nav-item">
 						<a class="nav-link" href="#projectHeader">Portfolio</a>
 					</li>
 					<li class="nav-item">
