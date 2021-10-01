@@ -18,7 +18,9 @@ function Experience() {
         Verizon Web Development Apprenticeship
       </div>
       <div class="timeline__event__description">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam corporis incidunt reprehenderit accusantium id aut architecto harum quidem dolorem in!</p>
+        <p>
+        A 12 month software engineering apprenticeship with Verizon in partnership with Multiverse. 
+        </p>
       </div>
     </div>
   </div>
@@ -33,7 +35,9 @@ function Experience() {
         Generation USA
       </div>
       <div class="timeline__event__description">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam corporis incidunt reprehenderit accusantium id aut architecto harum quidem dolorem in!</p>
+        <p>
+        A 3 month bootcamp in software development to learn the technical and soft skills needed to be successful in a career in software engineering.
+        </p>
       </div>
     </div>
   </div>
@@ -48,7 +52,9 @@ function Experience() {
         Univeristy of Washington Coding Bootcamp 
       </div>
       <div class="timeline__event__description">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam corporis incidunt reprehenderit accusantium id aut architecto harum quidem dolorem in!</p>
+        <p>
+          Studied and practiced a curriculum based on HTML5, CSS3, JavaScript, jQuery, Express.js, React.js, Node.js, progressive web apps, agile methodology, computer science, database theory, MongoDB, MySQL, Git, and more.
+          </p>
       </div>
     </div>
   </div>
