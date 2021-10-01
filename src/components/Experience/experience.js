@@ -5,7 +5,7 @@ import "animate.css"
 function Experience() {
     return (
 <section>
-<h1 className="#experience-title">Experiences</h1>
+<h1 id="experience" className="experience-title">Experiences</h1>
 <div class="timeline"> 
   <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
     <div class="timeline__event__icon ">
