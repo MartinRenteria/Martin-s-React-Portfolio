@@ -23,9 +23,9 @@ function Nav() {
 					<li class="nav-item">
 						<a class="nav-link" href="#about">About Me</a>
 					</li>
-					<li class="nav-item">
+					{/* <li class="nav-item">
 						<a class="nav-link" href="#experience">Experience</a>
-					</li>
+					</li> */}
 					<li class="nav-item">
 						<a class="nav-link" href="#projectHeader">Portfolio</a>
 					</li>

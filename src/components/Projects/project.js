@@ -9,12 +9,11 @@ import Dance from "./images/Dance.png";
 
 function Projects() {
 	return (
-		<section>
+		<section className="projectSection">
 			{/*Project 1 */}
-
-			<div>
+			<header>
 				<h1 id="projectHeader">Projects</h1>
-			</div>
+			</header>
 			<div className="projects">
 				<div className="projectContainer">
 					<h2 className="project-titles">Google Books React</h2>
