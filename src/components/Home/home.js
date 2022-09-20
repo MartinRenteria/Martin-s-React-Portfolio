@@ -22,7 +22,7 @@ function Home() {
 						typewriter
 							.start()
 							.typeString(
-								`Hi there, I'm Martin Renteria.<br/>A Full-Stack Software Engineer<br/>based in Bellevue, WA.<br/>`
+								`Hi there, I'm Martin Renteria.<br/>A DevOps Software Engineer<br/>based in Bellevue, WA.<br/>`
 							);
 					}}
 				/>
