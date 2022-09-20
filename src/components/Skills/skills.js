@@ -4,7 +4,7 @@ import "./skills.css";
 function Skills() {
 	return (
 		<section className="skillsSection">
-			<h1 className="skills-title">Skills and Expertises</h1>
+			<h1 id="skills" className="skills-title">Skills and Expertises</h1>
 			<div className="cards">
 				<div class="flip-card">
 					<div class="flip-card-inner">

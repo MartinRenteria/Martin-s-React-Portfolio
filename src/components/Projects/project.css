@@ -1,6 +1,6 @@
 .projectContainer {
 	margin: 0;
-	padding: 2em;
+	padding: 0.5em;
 }
 
 .projects {
@@ -25,7 +25,7 @@
 
 .project-pictures {
 	display: block;
-	max-width: 100%;
+	max-width: 25em;
 	height: 15em;
 	border: 5px solid black;
 	object-fit: cover;

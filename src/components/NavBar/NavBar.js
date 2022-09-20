@@ -1,10 +1,10 @@
 import React from "react";
 import "./navbar.css";
-import Resume from "./Files/Resume.docx.pdf"
+import Resume from "./Files/Resume.pdf"
 
 function Nav() {
 	return (
-		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			  <div class="container-fluid">
 			    <a class="navbar-brand" href="#MartinRenteria" rel="noreferrer"><h2>Martin Renteria</h2></a>
 			<button
@@ -28,6 +28,9 @@ function Nav() {
 					</li> */}
 					<li class="nav-item">
 						<a class="nav-link" href="#projectHeader">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#skills">Skills</a>
 					</li>
 					<li class="nav-item">
 						<a
